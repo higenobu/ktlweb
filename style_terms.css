@@ -1,0 +1,112 @@
+body.pages_terms {
+    font-family: "游明朝, Yu Mincho", serif;
+    color: rgb(33, 37, 41);
+    line-height: 1.8;
+}
+
+@media screen and (min-width: 769px) {
+  body.pages_terms {
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body.pages_terms {
+    width: 96%
+    margin: 0 2%;
+  }
+}
+
+div.terms_text{
+  background-color: #F0F0E8;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 769px) {
+  div.terms_text, div.terms_date{
+    padding: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.terms_text, div.terms_date{
+    padding: 2px 2px 2px 2px;
+  }
+}
+
+p.terms_text{
+  text-indent: 1em;
+  margin: 0;
+}
+
+p.terms_date{
+  margin: 2em 0 0 0;
+}
+
+h2.terms_text{
+  font-size: 110%;
+  margin: 2em 0 1em 0;
+}
+
+h3.terms_text{
+  font-size: 95%;
+  margin: 1.5em 0 0 0;
+}
+
+ul.terms_text{
+  list-style-type: decimal !important;
+  color: black;
+}
+
+.furtherinfo{
+  text-decoration: none !important;
+}
+
+.terms a{
+  font-size: 16px;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","游ゴシック","Yu Gothic","ＭＳ ゴシック","MS Gothic",sans-serif;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.terms a:hover{
+  color: #2d71a1;
+}
+
+.terms a:active{
+  color: #2d71a1;
+}
+
+.terms ul{
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .terms ul{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .terms ul{
+    flex-direction: row;
+  }
+}
+
+.terms li{
+  display:block;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  #privacy{
+    flex: 0.9;
+  }
+  #terms{
+    flex: 0.6;
+  }
+  #notice{
+    flex: 1;
+  }
+}
