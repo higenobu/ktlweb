@@ -1,62 +1,104 @@
-body.pages_terms {
-    font-family: "游明朝, Yu Mincho", serif;
-    color: rgb(33, 37, 41);
-    line-height: 1.8;
+#pages_terms {
+  font-family: "游明朝", "Yu Mincho", "YuMincho", serif;
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 290px){
+  .site-text-l{
+    font-size: 20px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 289px){
+  .site-text-l{
+    font-size: 18px;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 992px){
+  #heromod .hero-section.inner-page {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 991px){
+#heromod .hero-section.inner-page {
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  #heromod .hero-section.inner-page .hero-text h1 {
+    margin-top: 100px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 991px){
+  #heromod .hero-section.inner-page .hero-text h1 {
+    margin-top: 60px;
+    font-size: 1.1rem;
+  }
+}
+
+#heromod .hero-section.inner-page .col-12.hero-text h1{
+  text-shadow:
+  0px 0px 1px rgb(113 113 109 / 50%),
+  0px 0px 2px rgb(113 113 109 / 50%),
+  0px 0px 3px rgb(113 113 109 / 50%),
+  0px 0px 4px rgb(113 113 109 / 50%),
+  0px 0px 5px rgb(113 113 109 / 50%),
+  0px 0px 6px rgb(113 113 109 / 50%);
 }
 
 @media screen and (min-width: 769px) {
-  body.pages_terms {
-    width: 80%;
-    margin: 0 10%;
+  #terms_area{
+    margin: 20px;
+    padding: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body.pages_terms {
-    width: 96%
-    margin: 0 2%;
+  #terms_area{
+    margin: 10px 0;
+    padding: 10px 8px;
   }
 }
 
-div.terms_text{
+#terms_area{
   background-color: #F0F0E8;
   border-radius: 10px;
 }
 
-@media screen and (min-width: 769px) {
-  div.terms_text, div.terms_date{
-    padding: 20px 20px 20px 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  div.terms_text, div.terms_date{
-    padding: 2px 2px 2px 2px;
-  }
-}
-
-p.terms_text{
+#terms_area p{
   text-indent: 1em;
   margin: 0;
 }
 
-p.terms_date{
-  margin: 2em 0 0 0;
+#terms_area a{
+  text-decoration: none;
+  color: #999925;
 }
 
-h2.terms_text{
+#terms_date p{
+  margin: 0.2em 0 0 0;
+}
+
+#terms_area h2{
   font-size: 110%;
   margin: 2em 0 1em 0;
 }
 
-h3.terms_text{
+#terms_area h3{
   font-size: 95%;
   margin: 1.5em 0 0 0;
 }
 
-ul.terms_text{
-  list-style-type: decimal !important;
-  color: black;
+#terms_area ul{
+  list-style-type: decimal;
+  color: rgb(36, 36, 35);
 }
 
 .furtherinfo{
