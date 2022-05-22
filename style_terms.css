@@ -1,18 +1,18 @@
 #pages_terms {
-  font-family: "游明朝", "Yu Mincho", "YuMincho", serif;
+  font-family: "游明朝", "Yu Mincho", "YuMincho", "Shippori Mincho", serif;
   line-height: 1.8;
 }
 
-@media screen and (min-width: 290px){
+@media screen and (min-width: 310px){
   .site-text-l{
     font-size: 20px;
     flex-grow: 1;
   }
 }
 
-@media screen and (max-width: 289px){
+@media screen and (max-width: 309px){
   .site-text-l{
-    font-size: 18px;
+    font-size: 17px;
     flex-grow: 1;
   }
 }
@@ -20,25 +20,27 @@
 @media screen and (min-width: 992px){
   #heromod .hero-section.inner-page {
     height: 200px;
+    background: rgb(113 113 109 / 30%);
   }
 }
 
 @media screen and (max-width: 991px){
 #heromod .hero-section.inner-page {
     height: 120px;
+    background: rgb(113 113 109 / 30%);
   }
 }
 
 @media screen and (min-width: 992px){
   #heromod .hero-section.inner-page .hero-text h1 {
-    margin-top: 100px;
+    margin-top: 122px;
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 991px){
   #heromod .hero-section.inner-page .hero-text h1 {
-    margin-top: 60px;
+    margin-top: 79px;
     font-size: 1.1rem;
   }
 }
@@ -67,9 +69,18 @@
   }
 }
 
-#terms_area{
-  background-color: #F0F0E8;
-  border-radius: 10px;
+@media screen and (min-width: 992px){
+  #terms_area{
+    background-color: #F0F0E8;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  #terms_area{
+    background-color: #F0F0E8;
+    border-radius: 5px;
+  }
 }
 
 #terms_area p{
@@ -83,7 +94,8 @@
 }
 
 #terms_date p{
-  margin: 0.2em 0 0 0;
+  margin: 0em 2em;
+  text-align: right;
 }
 
 #terms_area h2{
