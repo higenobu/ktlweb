@@ -148,7 +148,7 @@
   }
 }
 
-.terms li{
+.terms li {
   display:block;
   text-align: center;
 }
@@ -163,4 +163,15 @@
   #notice{
     flex: 1;
   }
+}
+
+.bluegreen-link a{
+  text-decoration: none !important;
+  color: rgb(0, 135, 140);
+}
+.bluegreen-link a:hover{
+  color: rgb(110, 110, 110);
+}
+.bold {
+  font-weight: 700;
 }
