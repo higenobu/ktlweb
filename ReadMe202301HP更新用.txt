@@ -14,7 +14,7 @@ predict-nikkeisaki.png　更新（同名ファイルの入れ替え）
 ＝王様の耳のポップにあるサムネイルの画像をリンク先のPDFの画像にするもの
 
 【assets/docs分】
-text-assist-guide.pdf	新規（メールでも送付済み）
-text-assist-flyer.pdf	新規（メールでも送付済み）
+text-assist-guide.pdf	新規（メールでも送付済み）完了
+text-assist-flyer.pdf	新規（メールでも送付済み）完了
 BootCamp_flyer.pdf	更新（同名ファイルの入れ替え）
 ＝ブートキャンプ・フライヤの色合いをHP全体のカラーに合わせるもの
