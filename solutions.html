@@ -46,7 +46,7 @@
 <header class="site-navbar js-sticky-header" role="banner">
     <div class="container container-wide">
         <div class="row align-items-center">
-            <div class="col-10 col-lg-6">
+            <div class="col-10 col-lg-5">
                 <a href="index.html" class="mb-0 d-flex align-items-center no-underline">
                     <div class="logo-img-outer mr-2">
                       <img src="assets/img/logo-ktl-colored.png" alt="">
@@ -56,17 +56,18 @@
                         <span class="site-text"><span class="ls-2px">京</span>都テキストラボ
                     </h1>
                 </a>
-            </div><!-- /col-10 col-lg-6 -->
+            </div><!-- /col-10 col-lg-5 -->
 
-            <div class="col-12 col-md-6 d-none d-lg-block">
+            <div class="col-12 col-md-7 d-none d-lg-block">
                 <nav class="site-navigation position-relative text-right" role="navigation">
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li><a href="index.html" class="nav-link">HOME</a></li>
                         <li class="active"><a href="solutions.html" class="nav-link">SOLUTIONS</a></li>
                         <li><a href="company.html" class="nav-link">COMPANY</a></li>
+                        <li><a href="https://kyototextlab.org/" class="nav-link" target="_blank" rel="noopener noreferrer">BLOG</a></li>
                     </ul>
                 </nav>
-            </div><!-- /col-12 col-md-6 d-none d-lg-block" -->
+            </div><!-- /col-12 col-md-7 d-none d-lg-block" -->
 
             <div class="col-2 d-inline-block d-lg-none ml-md-0 py-3" style="position: relative; top: 3px;">
                 <a href="#" class="burger site-menu-toggle js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -166,10 +167,11 @@
                             </div>
                             <h2 class="section-heading-ja">金融取引の未来予測サービス</h2>
                         </div>
-                        <p>日経先物、TOPIX、マザーズ先物などの指数先物は、未来の変動を予測して売買するものです。ここで、現在の市場におけるセンチメント（心理）を観察することは、先物の価格を予測するために重要な要素といえるでしょう。</p>
-                        <p>京都テキストラボは、深層学習を用いた、公開されている直近のテキスト情報のセンチメント分析から金融変動を予測するモデルを開発しました。</p>
-                        <p>このモデルを用いた金融取引の未来予測システムでは、先物市場が始まる8時45分までに、日経VI、日経先物、TOPIX、マザーズについて、その日の始値に対する三日後の終値が「上がる」「下がる」「変動なし」のいずれであるかを複数のモデルで、それぞれの確率を含めて予測できます。</p>
-                        <p>ドル・円の為替、S&P（米国）の予測モデルも開発中です。</p>
+                        <p>日経先物、TOPIX、マザーズ先物などの指数先物は、未来の変動を予測して売買するものです。現在の市場におけるセンチメント（心理）を観察することは、先物の価格を予測するために重要な要素といえるでしょう。</p>
+                        <p>京都テキストラボは、深層学習を用いた、公開されている直近のテキスト情報のセンチメント分析から金融変動を予測するモデル「DLPredict」を2020年に開発し、予測精度を検証してきました。</p>
+                        <p>このモデルでは、日経VI、日経先物、TOPIX、マザーズが「上がる」「下がる」「変動なし」のいずれであるかを予測します。ドル・円の為替、S&P（米国）の予測モデルも開発中です。</p>
+                        <p>さらに、DLPredictを実際のトレーディングに活用するための技術「DL-RiskM」の開発を進めています。基本コンセプトは運用対象の分散、売買モデルの分散、適切なレバレッジ管理です。2023年7月より実証フェーズを開始します。</p>
+                        <!--
                         <a class="furtherinfo" href="#modal-ousama" data-toggle="modal" role="button">
                             <span class="btn btn-primary btn-arrow mb-3">
                                 王様の耳
@@ -178,6 +180,7 @@
                             </span>
                           </span>
                         </a>
+                        -->
                     </div>
                 </div><!-- /flex-b-primary -->
                 <div class="col-12 col-lg-6 d-flex flex-b-secondary">
@@ -250,16 +253,9 @@
                 </div>
                 <div class="modal-body">
                     <p class="text-center mt-3 mb-4"><img src="assets/img/logo-kingears.jpg" alt="" style="width: 100%; max-width: 260px;"></p>
-                    <p>「王様の耳」はビッグデータのセンチメント分析サービスの総称として京都テキストラボが名付けました。イソップにある物語からヒントを得ています。</p>
-                    <p>金融活動は世界の社会的・経済的な動きの中心的な役割を担っています。しかし、一般の人にはあまり知られていないことも事実です。私たちは、ネット上にある社会的・経済的に影響をおよぼしていると想定するテキスト情報を時々刻々収集し続けています。そのビッグデータをもとに独自のセンチメント分析を行っています。その成果の第１弾は、近未来の金融変動を予測することです。</p>
-                    <p>金融変動の予測は、多くの経済学者、アナリスト、金融機関、政府が長年の研究を重ね続けています。その予測の精度をあげようと日夜取り組んでいるテーマです。<br />その中の一つにVIXとよばれるVolatility Index（恐怖指数）が最近特に注目されています。<br />VIXを予測することは不可能と言われていますが、それに挑戦しているのが「王様の耳」です。それと同時に、VIXと相関が強いと言われている先物（日経２２５、TOPIX、マザース）の予測も行っています。</p>
-                    <p>近未来とは、現在から見て１日先から３日先までの動きを予測するものです。<br />以下、その予測を使った簡単な取引の例を挙げます。</p>
-                    <p>今日の日経２２５先物の取引が開始される１時間前に３日先の変動予測（寄せ値から引け値までの差の方向）が提供されます。<br />予測が、たとえば上昇指標７であれば、寄せで買いを入れます。３日後に予測通り上昇していれば、売りでその差が利益となります。<br />予測が外れたときは、売りでその差が損となります。</p>
-                    <p>しかし、現実には、時々刻々と価格は変動するので、自動売買プログラムでは変動に対してどのような行動を取るかの工夫も必要です。<br />つまり、予測だけでなく、自動売買プログラム（アルゴ）の設定が取引の損益を左右することになります。</p>
-                    <p>また、その自動売買プログラムに含まれる重要な機能は、リスク管理です。<br />リスク管理の一つは、予測が外れたときに損を少なくする工夫です。<br />３日後を待たずに、予測を大きく外れた場合にはロスカット（損を確定）したり、適当な時に益出し（益を確定）したりする必要があります。</p>
-                    <p>自動売買プログラムやリスク管理は、トレーダー（投資家）のノウハウとして通常は公開されることはありません。個人あるいは法人の知的財産になる部分です。<br />「王様の耳」では、金融変動予測サービスとともに自動売買プログラムのサンプル、リスク管理のサンプルを開発しています。<br />これらのサンプルを参考に、独自の手法を考え出し、できれば多くの人たちにそのノウハウをシェアできるしくみを検討しています。</p>
-                    <a href="assets/docs/predict-nikkeisaki-082020-012021.pdf" class="d-flex flex-column justify-content-center mb-4" target="_blank" rel="noopener noreferrer">
-                        <img src="assets/img/predict-nikkeisaki.png" alt="">
+                    <p></p>
+                    <a href="" class="d-flex flex-column justify-content-center mb-4" target="_blank" rel="noopener noreferrer">
+                        <img src="" alt="">
                         <span class="text-center">Sample (PDF 48KB) <i class="las la-file-pdf"></i></span>
                     </a>
                 </div>
@@ -281,6 +277,7 @@
                         <div class="fs-14px text-center mb-3">〒606-8317 京都市左京区吉田本町36番地1<br>京都大学国際科学イノベーション棟104<br>ベンチャーインキュベーションセンター内</div>
                         <div class="fs-15px text-center font-josefin">MAIL: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#107;&#121;&#111;&#116;&#111;&#116;&#101;&#120;&#116;&#108;&#97;&#98;&#46;&#99;&#111;&#109;">&#105;&#110;&#102;&#111;&#64;&#107;&#121;&#111;&#116;&#111;&#116;&#101;&#120;&#116;&#108;&#97;&#98;&#46;&#99;&#111;&#109;</a></div>
                         <div class="fs-15px text-center font-josefin">TEL: <span class="js-tel-link">050-5806-3267</span></div>
+                        <div class="fs-14px text-center mb-3">受付時間：火〜金 午前9時〜正午<br>電話が繋がりにくい場合は、<br>メールでご連絡いただければ幸いです。</div>
                     </div>
                 </div><!-- /col-md-6  map-secondary-->
                 <div class="col-md-6 p-0 map-primary">
