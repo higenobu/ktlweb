@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>株式会社 京都テキストラボ | 金融予測グラフ</title>
+<meta name="description" content="  <meta name="description" content="京都テキストラボは金融の近未来の予測システムを開発しています。そのデモンストレーションとして金融予測指標の推移のグラフを表示しています。">
+<!-- Favicons -->
+<link href="assets/img/favicon.png" rel="icon">
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "Trading profit and loss"              
+		},
+		data: [              
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "line",
+						dataPoints: [
+{ label: "20230307", y: -180},{ label: "20230308", y: 200},{ label: "20230309", y: -50},{ label: "2023/03/10", y: 140.0},{ label: "2023/03/13", y: -180},{ label: "2023/03/14", y: 200},						
+						]
+				
+		
+		},
+	
+
+	]
+
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<input type="button" value="CLOSE" onClick="window.parent.close()" style="display: block; margin-top: 1rem; margin-left: auto; margin-right: auto;">
+</body>
+</html>
